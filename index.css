@@ -9,7 +9,7 @@
  * Written with Coda: <http://panic.com/coda/>
  *
  */
- 
+
 * {
 	font-family: Helvetica, sans-serif;
 	font-size: 13px;
@@ -20,7 +20,7 @@
 blockquote {
 	background-color: #f0f8f0;
 	margin: 0px 0px 12px 20px;
-	padding-top: 4px 10px 4px 10px;
+	padding: 4px 10px 4px 10px;
 }
 
 form {
@@ -69,7 +69,7 @@ ol {
 	margin-left: 12px;
 	margin-bottom: 12px;
 	padding-left: 12px;
-        list-style-position: inside;
+				list-style-position: inside;
 }
 
 p {
@@ -110,7 +110,7 @@ textarea {
 	background-color: #ffffee;
 }
 
-.main {	
+.main {
 	padding: 8px;
 }
 
@@ -138,7 +138,7 @@ textarea {
 
 .toolbar {
 	background-color: #777777;
-    background: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#444444));
+	background: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#444444));
 	font-size: 12px;
 	padding: 4px 4px 4px 12px;
 }

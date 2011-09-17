@@ -42,7 +42,7 @@ define('BASE_URI', str_replace('/index.php', '', $_SERVER['SCRIPT_NAME']));
 
 define('SELF', $_SERVER['SCRIPT_NAME']);
 
-// VIEW 
+// VIEW
 //
 // Needed only if your web server spawns PHP as a CGI instead of an internal module.
 // For example: define('VIEW', '?action=view&page=');
@@ -137,7 +137,7 @@ define('W2_PASSWORD', 'secret');
 // To use a hashed password, Comment out the W2_PASSWORD definition above and uncomment
 // this one, using the result of sha1('your_password') as the value.
 //
-// In Mac OS X, you can do this from the Terminal:   
+// In Mac OS X, you can do this from the Terminal:
 //     echo -n 'your_password' | openssl sha1
 //
 // define('W2_PASSWORD_HASH', 'e5e9fa1ba31ecd1ae84f75caaa474f3a663f05f4');
@@ -146,13 +146,13 @@ define('W2_PASSWORD_HASH', '');
 
 // allowedIPs
 //
-// A whitelist of IP addresses that are allowed access to the wiki. 
+// A whitelist of IP addresses that are allowed access to the wiki.
 // If empty, all IPs are allowed.
 
 $allowedIPs = array();
 
 // W2_SESSION_LIFETIME
-// 
+//
 // How long before a login session expires?  Default is 30 days
 
 define('W2_SESSION_LIFETIME', 60 * 60 * 24 * 30);
@@ -163,4 +163,11 @@ define('W2_SESSION_LIFETIME', 60 * 60 * 24 * 30);
 
 define('W2_SESSION_NAME', 'W2');
 
-?>
+
+// -----------------------------
+// Languages and encoding settings
+// -----------------------------
+
+define('ENCODING', 'utf-8');
+
+define('LANG', 'ja');
