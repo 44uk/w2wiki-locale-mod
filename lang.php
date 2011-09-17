@@ -8,7 +8,7 @@ if( ! function_exists('t') && defined('LANG') ){
 	 */
 	function t( $label ){
 		global $w2_word_set;
-		return empty( $w2_word_set[$label] ) ? $label : $w2_word_set[$label];
+		return empty( $w2_word_set[$label] ) ? $label : htmlspecialchars($w2_word_set[$label], ENT_QUOTES);
 	}
 }
 

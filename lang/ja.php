@@ -12,12 +12,13 @@ $w2_word_set = array(
 	'Save' => '保存',
 	'Cancel' => 'キャンセル',
 	'Saved' => '保存しました',
-
+	'Log In' => 'ログイン',
 
 
 
 	'Title' => 'ページタイトル',
-
+	'Upload error' => 'アップロードエラー',
+	'Upload error: invalid file type' => 'アップロードエラー：不正なファイル形式です',
 	'Image uploading has been disabled on this installation.' => '画像アップロードは許可されていません。',
 
 	'date_format' => 'Y-m-d H:i:s',

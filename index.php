@@ -57,18 +57,17 @@ if ( REQUIRE_PASSWORD && !isset($_SESSION['password']) )
 	else
 	{
 		print "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n";
-		print defined('LANG') ? "<html lang=\"". LANG ."\">\n" : "<html>\n";
+		print defined('LANG') ? '<html lang="' . LANG . '">' . "\n" : "<html>\n";
 		print "<head>\n";
-		print defined('ENCODING') ? "<meta charset=\"". ENCODING ."\">\n" : "";
+		print defined('ENCODING') ? '<meta charset="' . ENCODING . '">' . "\n" : '';
 		print "<link rel=\"apple-touch-icon\" href=\"apple-touch-icon.png\"/>";
 		print "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=false\" />\n";
-
 		print "<link type=\"text/css\" rel=\"stylesheet\" href=\"" . BASE_URI . "/" . CSS_FILE ."\" />\n";
-		print "<title>Log In</title>\n";
+		print '<title>' . t('Log In') . '</title>' . "\n";
 		print "</head>\n";
 		print "<body><form method=\"post\">";
 		print "<input type=\"password\" name=\"p\">\n";
-		print "<input type=\"submit\" value=\"Go\"></form>";
+		print '<input type="submit" value="' . t('Go') . '"></form>';
 		print "</body></html>";
 		exit;
 	}
@@ -82,14 +81,14 @@ function printToolbar()
 
 	print "<div class=\"toolbar\">";
 	print "<a class=\"tool first\" href=\"" . SELF . "?action=edit&amp;page=$upage\">". t('Edit') ."</a> ";
-	print "<a class=\"tool\" href=\"" . SELF . "?action=new\">". t('New') ."</a>";
+	print '<a class="tool" href="' . SELF . '?action=new">'. t('New') .'</a>';
 
 	if ( !DISABLE_UPLOADS )
-		print "<a class=\"tool\" href=\"" . SELF . VIEW . "?action=upload\">". t('Upload') ."</a>";
+		print '<a class="tool" href="' . SELF . VIEW . '?action=upload">' . t('Upload') .'</a>';
 
 	print "<a class=\"tool\" href=\"" . SELF . "?action=all_name\">". t('All') ."</a> ";
 	print "<a class=\"tool\" href=\"" . SELF . "?action=all_date\">". t('Recent') ."</a> ";
-	print "<a class=\"tool\" href=\"" . SELF . "\">". DEFAULT_PAGE . "</a>";
+	print "<a class=\"tool\" href=\"" . SELF . "\">". t(DEFAULT_PAGE) . "</a>";
 
 	if ( REQUIRE_PASSWORD )
 		print '<a class="tool" href="' . SELF . '?action=logout">'. t('Exit') .'</a>';
@@ -99,7 +98,6 @@ function printToolbar()
 
 	print "</div>\n";
 }
-
 
 function descLengthSort($val_1, $val_2)
 {
@@ -116,7 +114,6 @@ function descLengthSort($val_1, $val_2)
 
 	return $retVal;
 }
-
 
 function toHTML($inText)
 {
@@ -288,12 +285,12 @@ else if ( $action == "uploaded" )
 			}
 			else
 			{
-				$html = "<p class=\"note\">Upload error</p>\n";
+				$html = '<p class="note">' . t('Upload error') . '</p>'. "\n";
 			}
 
 			error_reporting($errLevel);
 		} else {
-			$html = "<p class=\"note\">Upload error: invalid file type</p>\n";
+			$html = '<p class="note">' . t('Upload error: invalid file type') . '</p>' . "\n";
 		}
 	}
 
