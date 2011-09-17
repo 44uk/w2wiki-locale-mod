@@ -477,10 +477,10 @@ else if ( $action == "search" )
 else
 {
 	$title = $page;
-
-	if ( TITLE_DATE )
+	$date_format = t_e('date_format') ? t('date_format') : TITLE_DATE;
+	if ( $date_format )
 	{
-		$datetime = "<span class=\"titledate\">" . date(TITLE_DATE, @filemtime($filename)) . "</span>";
+		$datetime = "<span class=\"titledate\">" . date($date_format, @filemtime($filename)) . "</span>";
 	}
 }
 
