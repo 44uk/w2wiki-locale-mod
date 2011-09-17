@@ -219,6 +219,7 @@ if ( file_exists($filename) )
 }
 else
 {
+	$text = '';
 	if ( $action != "save" && $action != "all_name" && $action != "all_date" && $action != "upload" && $action != "new" && $action != "logout" && $action != "uploaded" && $action != "search" && $action != "view" )
 	{
 		$action = "edit";
