@@ -454,7 +454,7 @@ else if ( $action == "search" )
 }
 else
 {
-	$html = toHTML($text);
+	$html = empty($text) ? '' : toHTML($text);
 }
 
 $datetime = '';

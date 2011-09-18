@@ -1,0 +1,83 @@
+[17-Sep-2011 18:57:17] PHP Fatal error:  Call to undefined function t() in /data/dev/w2wiki-mod/index.php on line 495
+[17-Sep-2011 18:57:17] PHP Stack trace:
+[17-Sep-2011 18:57:17] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 18:57:44] PHP Notice:  Use of undefined constant BASE_PATH - assumed 'BASE_PATH' in /data/dev/w2wiki-mod/lang.php on line 1
+[17-Sep-2011 18:57:44] PHP Stack trace:
+[17-Sep-2011 18:57:44] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 18:57:44] PHP   2. include_once() /data/dev/w2wiki-mod/index.php:16
+[17-Sep-2011 19:05:40] PHP Notice:  Undefined variable: w2_word_set in /data/dev/w2wiki-mod/lang.php on line 6
+[17-Sep-2011 19:05:40] PHP Stack trace:
+[17-Sep-2011 19:05:40] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 19:05:40] PHP   2. t() /data/dev/w2wiki-mod/index.php:496
+[17-Sep-2011 19:05:40] PHP Notice:  Undefined variable: w2_word_set in /data/dev/w2wiki-mod/lang.php on line 6
+[17-Sep-2011 19:05:40] PHP Stack trace:
+[17-Sep-2011 19:05:40] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 19:05:40] PHP   2. printToolbar() /data/dev/w2wiki-mod/index.php:501
+[17-Sep-2011 19:05:40] PHP   3. t() /data/dev/w2wiki-mod/index.php:85
+[17-Sep-2011 19:05:40] PHP Notice:  Undefined variable: w2_word_set in /data/dev/w2wiki-mod/lang.php on line 6
+[17-Sep-2011 19:05:40] PHP Stack trace:
+[17-Sep-2011 19:05:40] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 19:05:40] PHP   2. printToolbar() /data/dev/w2wiki-mod/index.php:501
+[17-Sep-2011 19:05:40] PHP   3. t() /data/dev/w2wiki-mod/index.php:88
+[17-Sep-2011 19:06:08] PHP Notice:  Undefined variable: w2_word_set in /data/dev/w2wiki-mod/lang.php on line 6
+[17-Sep-2011 19:06:08] PHP Stack trace:
+[17-Sep-2011 19:06:08] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 19:06:08] PHP   2. t() /data/dev/w2wiki-mod/index.php:496
+[17-Sep-2011 19:06:08] PHP Notice:  Undefined variable: w2_word_set in /data/dev/w2wiki-mod/lang.php on line 6
+[17-Sep-2011 19:06:08] PHP Stack trace:
+[17-Sep-2011 19:06:08] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 19:06:08] PHP   2. printToolbar() /data/dev/w2wiki-mod/index.php:501
+[17-Sep-2011 19:06:08] PHP   3. t() /data/dev/w2wiki-mod/index.php:85
+[17-Sep-2011 19:06:08] PHP Notice:  Undefined variable: w2_word_set in /data/dev/w2wiki-mod/lang.php on line 6
+[17-Sep-2011 19:06:08] PHP Stack trace:
+[17-Sep-2011 19:06:08] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 19:06:08] PHP   2. printToolbar() /data/dev/w2wiki-mod/index.php:501
+[17-Sep-2011 19:06:08] PHP   3. t() /data/dev/w2wiki-mod/index.php:88
+[17-Sep-2011 21:41:05] PHP Parse error:  syntax error, unexpected '$' in /data/dev/w2wiki-mod/lang.php on line 3
+[17-Sep-2011 21:41:05] PHP Stack trace:
+[17-Sep-2011 21:41:05] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 22:00:39] PHP Fatal error:  Can't use function return value in write context in /data/dev/w2wiki-mod/index.php on line 415
+[17-Sep-2011 22:05:58] PHP Fatal error:  Can't use function return value in write context in /data/dev/w2wiki-mod/index.php on line 415
+[17-Sep-2011 22:11:58] PHP Notice:  Undefined variable: text in /data/dev/w2wiki-mod/index.php on line 459
+[17-Sep-2011 22:11:58] PHP Stack trace:
+[17-Sep-2011 22:11:58] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 22:13:36] PHP Notice:  Undefined variable: text in /data/dev/w2wiki-mod/index.php on line 459
+[17-Sep-2011 22:13:36] PHP Stack trace:
+[17-Sep-2011 22:13:36] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 22:18:22] PHP Notice:  Undefined variable: text in /data/dev/w2wiki-mod/index.php on line 459
+[17-Sep-2011 22:18:22] PHP Stack trace:
+[17-Sep-2011 22:18:22] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 22:19:45] PHP Notice:  Undefined variable: text in /data/dev/w2wiki-mod/index.php on line 459
+[17-Sep-2011 22:19:45] PHP Stack trace:
+[17-Sep-2011 22:19:45] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 22:23:38] PHP Notice:  Undefined variable: text in /data/dev/w2wiki-mod/index.php on line 454
+[17-Sep-2011 22:23:38] PHP Stack trace:
+[17-Sep-2011 22:23:38] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 22:24:06] PHP Notice:  Undefined variable: text in /data/dev/w2wiki-mod/index.php on line 454
+[17-Sep-2011 22:24:06] PHP Stack trace:
+[17-Sep-2011 22:24:06] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 22:24:14] PHP Notice:  Undefined variable: text in /data/dev/w2wiki-mod/index.php on line 454
+[17-Sep-2011 22:24:14] PHP Stack trace:
+[17-Sep-2011 22:24:14] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 22:25:45] PHP Notice:  Undefined variable: text in /data/dev/w2wiki-mod/index.php on line 454
+[17-Sep-2011 22:25:45] PHP Stack trace:
+[17-Sep-2011 22:25:45] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 22:36:06] PHP Notice:  Undefined variable: text in /data/dev/w2wiki-mod/index.php on line 459
+[17-Sep-2011 22:36:06] PHP Stack trace:
+[17-Sep-2011 22:36:06] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 22:36:18] PHP Notice:  Undefined variable: text in /data/dev/w2wiki-mod/index.php on line 459
+[17-Sep-2011 22:36:18] PHP Stack trace:
+[17-Sep-2011 22:36:18] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 22:36:26] PHP Notice:  Undefined variable: text in /data/dev/w2wiki-mod/index.php on line 241
+[17-Sep-2011 22:36:26] PHP Stack trace:
+[17-Sep-2011 22:36:26] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 22:38:30] PHP Notice:  Undefined variable: text in /data/dev/w2wiki-mod/index.php on line 459
+[17-Sep-2011 22:38:30] PHP Stack trace:
+[17-Sep-2011 22:38:30] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 22:41:46] PHP Notice:  Undefined variable: text in /data/dev/w2wiki-mod/index.php on line 460
+[17-Sep-2011 22:41:46] PHP Stack trace:
+[17-Sep-2011 22:41:46] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 22:53:15] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /data/dev/w2wiki-mod/lang/ja.php on line 4
+[17-Sep-2011 22:53:15] PHP Stack trace:
+[17-Sep-2011 22:53:15] PHP   1. {main}() /data/dev/w2wiki-mod/index.php:0
+[17-Sep-2011 22:53:15] PHP   2. include_once() /data/dev/w2wiki-mod/index.php:20
