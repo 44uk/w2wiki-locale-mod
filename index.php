@@ -17,7 +17,11 @@ include_once "markdown.php";
 // User configurable options:
 
 include_once "config.php";
-include_once "lang.php";
+
+// Load Locale
+if( defined('LOCALE') ){
+	include_once "locale.php";
+}
 
 ini_set('session.gc_maxlifetime', W2_SESSION_LIFETIME);
 
@@ -57,7 +61,7 @@ if ( REQUIRE_PASSWORD && !isset($_SESSION['password']) )
 	else
 	{
 		print "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n";
-		print defined('LANG') ? '<html lang="' . LANG . '">' . "\n" : "<html>\n";
+		print defined('LOCALE') ? '<html lang="' . LOCALE . '">' . "\n" : "<html>\n";
 		print "<head>\n";
 		print defined('ENCODING') ? '<meta charset="' . ENCODING . '">' . "\n" : '';
 		print "<link rel=\"apple-touch-icon\" href=\"apple-touch-icon.png\"/>";
@@ -488,7 +492,7 @@ header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
 header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); // Date in the past
 
 print "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n";
-print defined('LANG') ? '<html lang="' . LANG . '">' . "\n" : "<html>\n";
+print defined('LOCALE') ? '<html lang="' . LOCALE . '">' . "\n" : "<html>\n";
 print "<head>\n";
 print defined('ENCODING') ? '<meta charset="' . ENCODING . '">' . "\n" : '';
 print "<link rel=\"apple-touch-icon\" href=\"apple-touch-icon.png\"/>";

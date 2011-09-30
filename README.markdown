@@ -6,7 +6,7 @@ Define your locale.
 ----------------
 
 Set your locale value (ex:ja, en)
-  define('LANG', 'ja');
+	define('LOCALE', 'ja');
 
 It is used for lang attribute of <html> and to decide which locale use.
 

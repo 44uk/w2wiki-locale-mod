@@ -1,7 +1,7 @@
 <?php if( ! defined( "BASE_PATH" ) ){ echo 'Not allow to execute directly.'; exit(); }
 
-if( ! function_exists('t') && defined('LANG') ){
-	require_once 'lang/' . LANG . '.php';
+if( ! function_exists('t') && defined('LOCALE') ){
+	require_once 'locale/' . LOCALE . '.php';
 	/**
 	 * Translation
 	 * if not found word, return label.
@@ -12,8 +12,8 @@ if( ! function_exists('t') && defined('LANG') ){
 	}
 }
 
-if( ! function_exists('t_e') && defined('LANG') ){
-	require_once 'lang/' . LANG . '.php';
+if( ! function_exists('t_e') && defined('LOCALE') ){
+	require_once 'locale/' . LOCALE . '.php';
 	/**
 	 * Translation Exists
 	 */

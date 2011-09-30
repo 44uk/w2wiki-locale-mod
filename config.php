@@ -165,9 +165,9 @@ define('W2_SESSION_NAME', 'W2');
 
 
 // -----------------------------
-// Languages and encoding settings
+// Locale and encoding settings
 // -----------------------------
 
 define('ENCODING', 'utf-8');
 
-define('LANG', 'ja');
+define('LOCALE', 'ja');

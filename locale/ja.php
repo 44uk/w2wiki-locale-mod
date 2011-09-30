@@ -3,7 +3,7 @@
  * Language sets
  * Do not change variable name $w2_word_set
  * Rewrite Values in your locale and rename this file to locale code
- * Set "LANG" to your locale in config.php
+ * Set "LOCALE" to your locale in config.php
  */
 $w2_word_set = array(
 	// Buttons / Labels
