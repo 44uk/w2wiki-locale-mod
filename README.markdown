@@ -1,5 +1,12 @@
 Add Locale definition support
 ================
+
+New repository: https://github.com/yukku0423/w2wiki/
+
+Because original author brings over from Google Code to github.
+
+----
+
 Modified avaliable user definition locale(Button, Label, Message, etc...)
 
 Define your locale.
